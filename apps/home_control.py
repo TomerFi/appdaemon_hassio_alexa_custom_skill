@@ -117,7 +117,7 @@ class HomeControl(appapi.AppDaemon):
             "<speak>If you need help configuring what can I do for you, please check Tomer <say-as interpret-as='spell-out'>fi</say-as> github repository for further instructions."+
             " The link is in a card in your alexa app.</speak>")
 
-        self.setSimpleCard(response, "TomerFi's Github repository", "https://github.com/TomerFi")
+        self.setSimpleCard(response, "TomerFi's Github repository", "https://github.com/TomerFi/appdaemon_hassio_alexa_custom_skill")
 
         return response
 
