@@ -2,6 +2,9 @@ LocatePhoneIntent where's {Name}
 LocatePhoneIntent where is {Name}
 LocatePhoneIntent find {Name}
 LocatePhoneIntent locate {Name}
+AMAZON.YesIntent I'm sure
+AMAZON.YesIntent yes I am
+AMAZON.YesIntent do it
 IdentifyIntent who are you
 IdentifyIntent what can you do
 IdentifyIntent just chatting
@@ -63,6 +66,17 @@ SystemOperationsIntent restart home assistant
 SystemOperationsIntent reboot home assistant
 SystemOperationsIntent restart hass
 SystemOperationsIntent reboot hass
-AMAZON.YesIntent I'm sure
-AMAZON.YesIntent yes I am
-AMAZON.YesIntent do it
+BoilerRequestsIntent turn {Action} the boiler
+BoilerRequestsIntent turn {Action} the boiler for {Duration}
+BoilerRequestsIntent {Action} the boiler
+BoilerRequestsIntent {Action} the boiler for {Duration}
+BoilerRequestsIntent {Action} {Duration} on the boiler
+BoilerRequestsIntent {Action} {Duration} timer on the boiler
+BoilerRequestsIntent turn {Action} the water heater
+BoilerRequestsIntent turn {Action} the water heater for {Duration}
+BoilerRequestsIntent {Action} the water heater
+BoilerRequestsIntent {Action} the water heater for {Duration}
+BoilerRequestsIntent {Action} {Duration} on the water heater
+BoilerRequestsIntent {Action} {Duration} timer on the water heater
+BoilerRequestsIntent {Duration}
+BoilerRequestsIntent {Action} for {Duration}
