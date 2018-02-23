@@ -44,6 +44,19 @@
     },
     {
       "intent": "SystemOperationsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Duration",
+          "type": "AMAZON.DURATION"
+        },
+        {
+          "name": "Action",
+          "type": "OnOff"
+        }
+      ],
+      "intent": "BoilerRequestsIntent"
     }
   ]
 }
