@@ -1,0 +1,7 @@
+on
+off
+start
+stop
+set
+open
+close
